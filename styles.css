@@ -113,7 +113,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 60%;
 }
 .form-section .form-copy {
     padding: 20px 40px;
