@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(fonts/Norse-Bold.otf);
+}
+
+
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,17 +67,44 @@ body {
 }
 
 .background-section {
-    display: flex;
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(./img/leaf.jpeg);
+    background-size: cover;
 }
+.site-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 25vh;
+    padding: 20px;
+
+    color: #f5f5f5;
+    background-color: rgb(0, 0, 0, .5)
+    
+}
+.site-logo img {
+    height: 70px;
+    width: auto;
+}
+.site-logo h1 {
+    font-family: "Norse";
+    font-size: 70px;
+}
+
+
+
 .form-section {
     background-color: #f5f5f5;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 60vw;
     height: 100vh;
 }
 .form-container {
@@ -88,7 +124,4 @@ body {
 .form-section .form-section-footer {
     background-color: antiquewhite;
     flex: 1;
-}
-.background-section img {
-    
 }
