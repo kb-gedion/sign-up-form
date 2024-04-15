@@ -51,3 +51,24 @@ table {
 
 
 /* ----------------------------------- */
+
+body {
+    display: flex;
+    
+}
+
+.background-section {
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+}
+.form-section {
+    background-color: #f5f5f5;
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+}
+
+.background-section img {
+    
+}
